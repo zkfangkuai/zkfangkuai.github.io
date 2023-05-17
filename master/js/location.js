@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $("#google").click(function(){
+        window.location.href="http://mp.weixin.qq.com/mp/homepage?__biz=Mzg5MDc0ODAzNg==&hid=1&sn=41f55cd642440831acc3554dfec2300d&scene=18#wechat_redirect";
+    });
+    $("#sanji").click(function(){
+        window.location.href="https://mp.weixin.qq.com/mp/homepage?__biz=Mzg5MDc0ODAzNg==&hid=3&sn=29dad221dd2de13b960f9ba5194657b7";
+    });
+    $("#leetcode").click(function(){
+        window.location.href="https://leetcode-cn.com/";
+    });
+    $("#csdn").click(function(){
+        window.location.href="http://mp.weixin.qq.com/mp/homepage?__biz=Mzg5MDc0ODAzNg==&hid=2&sn=ef87c81a6e7fd29a336361a6cf25a8b4&scene=18#wechat_redirect";
+    });
+    $("#leetcode").click(function(){
+        window.location.href="https://leetcode-cn.com/";
+    });
+    $("#blog").click(function(){
+        window.location.href="https://www.cnblogs.com/melodyjerry/";
+    });
+    $("#github").click(function(){
+        window.location.href="https://github.com";
+    });
+    $("#bilibili").click(function(){
+        window.location.href="https://www.bilibili.com";
+    });
+    $("#youtube").click(function(){
+        window.location.href="https://www.youtube.com";
+    });
+    $("#qqemail").click(function(){
+        window.location.href="https://mail.qq.com";
+    });
+    $("#wyy").click(function(){
+        window.location.href="https://music.163.com/";
+    });
+})

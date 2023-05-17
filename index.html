@@ -1,36 +1,232 @@
-<HTML>
-  <HEAD>
-     <TITLE>这是一个简单的网页</TITLE>
-	 <style>
-      body {
-        background-image: url("https://t7.baidu.com/it/u=4036010509,3445021118&fm=193&f=GIF");
-        background-repeat: no-repeat; /* 防止图像重复 */
-        background-size: cover; /* 让图像铺满整个背景*/
-      }
-    </style>
-  </HEAD>
-   <BODY>
-       <CENTER>
-             <H1>欢迎来到我的主页</H1>
-             <BR>
-             <HR>
-             <FONT SIZE= 7 COLOR= red>
-               这是我第一次自己做主页
-              <BR>
-             </FONT>
-             <FONT SIZE= 7 COLOR= blue>
-               <a href="https://www.baidu.com" target="_blank">我爱我的祖国</a>
-             </FONT>
-            <BR>
-           <IMG  src= "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fstatic2.ivwen.com%2Fusers%2F33644921%2F700fd152461f34da08a877a57ca6d592.jpg%3Fmeipian-raw%2Fbucket%2Fivwen%2Fkey%2FdXNlcnMvMzM2NDQ5MjEvNzAwZmQxNTI0NjFmMzRkYTA4YTg3N2E1N2NhNmQ1OTIuanBn%2Fsign%2F938699c1be2cecbf912ae28d601d070c.jpg&refer=http%3A%2F%2Fstatic2.ivwen.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1682332173&t=70e227c6a48fe2dd77f5b4777051179b" >  </IMG>
-        </CENTER>
-        <form>
-      <label for="inputBox">Enter your name:</label>
-      <input type="text" id="inputBox" name="name">
-      <br>
-      <input type="submit" value="Submit">
-    </form>
+<!DOCTYPE html>
+<html>
 
-   </BODY>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title id="title"></title>
+    <meta name="keywords" content="网页导航">
+    <meta name="description" content="智库机器人导航页">
+    <link rel="stylesheet icon" href="img/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/slideout.css">
+    <script>
+        var now = new Date().getTime();
+        document.write('<link href="css/style.css?v=' + now + '" rel="stylesheet" type="text/css"/>');
+    </script>
+</head>
 
-</HTML>
+<body>
+    <nav id="menu" class="menu">
+        <blockquote class="blockquote">▎ 工具</blockquote>
+        <ul>
+            
+            <a target="_blank" href="http://www.speedtest.cn/">
+                <li class="sidenav-btn">SpeedTest
+                    <p>测速网</p>
+                </li>
+            </a>
+            <a target="_blank" href="http://ip.tool.chinaz.com/">
+                <li class="sidenav-btn">IP查询
+                    <p>IP工具</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://mm.edrawsoft.cn/">
+                <li class="sidenav-btn">思维导图
+                    <p>在线思维导图工具</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://www.desmos.com/calculator">
+                <li class="sidenav-btn">desmos
+                    <p>在线函数图生成</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://www.remove.bg/zh">
+                <li class="sidenav-btn">背景消除
+                    <p>好用！简单！</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://pixabay.com/zh/">
+                <li class="sidenav-btn">图片素材
+                    <p>免费图片矢量素材</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://tool.liumingye.cn/wallpaper/">
+                <li class="sidenav-btn">高清壁纸
+                    <p>好看的壁纸在这里</p>
+                </li>
+            </a>
+             <a target="_blank" href="https://www.zhikulego.cn/a/gongju/scratch.html">
+                <li class="sidenav-btn">转换网页
+                    <p>scratch代码转换成html</p>
+                </li>
+            </a>        
+        </ul>
+        <blockquote class="blockquote">▎ 学习</blockquote>
+        <ul>
+            <a target="_blank" href="https://www.youzack.com/">
+                <li class="sidenav-btn">Youzack
+                    <p>英语听背</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://www.zxx.edu.cn/syncClassroom">
+                <li class="sidenav-btn">智慧教育
+                    <p>小学中学线上学！</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://mc.dfrobot.com.cn/forum-92-1.html">
+                <li class="sidenav-btn">Arduino学习
+                    <p>入门到熟练！</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://www.quwj.com/tag/arduino">
+                <li class="sidenav-btn">趣无尽
+                    <p>Arduino项目分享</p>
+                </li>
+            </a>
+        </ul>
+        <blockquote class="blockquote">▎ 信奥</blockquote>
+        <ul>
+            <a target="_blank" href="https://www.noi.cn">
+                <li class="sidenav-btn">信奥官网
+                    <p>参赛报名系统！</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://oi.wiki">
+                <li class="sidenav-btn">OI Wiki
+                    <p>知识整合站点！</p>
+                </li>
+            </a>
+             <a target="_blank" href="https://www.luogu.com.cn/problem/list">
+                <li class="sidenav-btn">洛谷
+                    <p>海量信奥题库！</p>
+                </li>
+            </a>
+            
+        </ul>
+        <blockquote class="blockquote">▎ 文件传送</blockquote>
+        <ul>
+            <a target="_blank" href="https://cowtransfer.com/">
+                <li class="sidenav-btn">奶牛快传
+                    <p>安全、省时高效</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://www.wenshushu.cn/">
+                <li class="sidenav-btn">文叔叔
+                    <p>传文件的酸爽！</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://app.tmp.link/">
+                <li class="sidenav-btn">TMPLink
+                    <p>简单临时文件中转</p>
+                </li>
+            </a>
+            <a target="_blank" href="https://pan.baidu.com/">
+                <li class="sidenav-btn">百度云盘
+                    <p>慢的很！有毒！</p>
+                </li>
+            </a>
+            
+        </ul>
+        
+        
+        
+        <blockquote class="blockquote">▎ 设置</blockquote>
+        <ul>
+            <a href="#">
+                <li class="sidenav-btn" id="night">夜间模式</li>
+            </a>
+            <a href="#">
+                <li class="sidenav-btn" id="bg">隐藏/显示壁纸</li>
+            </a>
+        </ul>
+        <p style="width:100%;text-align:center;margin:0 auto;font-size:14px;color:lightgray;">2022-2025 © <a style="color: lightgray;" href="http://www.coolapk.com/u/691518">方块老师</a><br>ALL RIGHTS RESERVED.</p>
+    </nav>
+
+    <!-- 主页面 -->
+    <main id="main" class="panel">
+        <!-- 天气 -->
+        <div id="tp-weather-widget"></div>
+        <!-- 主容器 -->
+        <div class="container">
+
+            <!-- 侧边栏按钮 -->
+            <img class="slidebtn btn-hamburger js-slideout-toggle" src="img/menu.svg" />
+            <!-- 搜索盒子 -->
+            <div class="search-box">
+                <!-- logo -->
+                <div id="logo">
+                    <div id="state">
+                        <a href="folder://"><img id="img" src="img/bing.png" /></a>
+                    </div>
+                </div>
+
+                <!-- 搜索框 -->
+                <div class="inputDiv">
+                    <form id="form" action="https://cn.bing.com/search" target="_self" onsubmit="return check()">
+                        <input onmouseover="this.focus()" onfocus="this.select()" id="inputText" type="text" placeholder="Bing搜索..." name="q" size="30" />
+                        <button id="submitButton" class="submitButton" type="submit"></button>
+                    </form>
+                    <!-- 搜索提示词 -->
+                    <div id="searchlist">
+                        <ul id="list"></ul>
+                    </div>
+                </div>
+
+                <!-- 智库导航、引擎选择器 -->
+                <div id="Select" class="Select" onclick="select()">
+                    <hr>智库导航
+                    <img src="img/search-change.svg?v=2ae7ab8" />
+                </div>
+                <!-- 智库导航 -->
+                <div id="folder" class="folder">
+                    <ul></ul>
+                </div>
+
+                <!-- 导航引擎 -->
+                <div id="nav" class="nav">
+                    <ul></ul>
+                </div>
+
+               
+
+            </div>
+    </main>
+
+    <script type="text/javascript" src="js/slideout.min.js"></script>
+    <script type="text/javascript">
+        var slideout = new Slideout({
+            'panel': document.getElementById('main'),
+            'menu': document.getElementById('menu'),
+            'padding': 290,
+            'tolerance': 70
+        });
+        document.querySelector('.js-slideout-toggle').addEventListener('click',
+            function() {
+                slideout.toggle();
+            });
+        document.querySelector('.menu').addEventListener('click',
+            function(eve) {
+                if (eve.target.nodeName === 'A') {
+                    slideout.close();
+                }
+            });
+        $(document).click(function(e) {
+            var Class = $(e.target).attr("class");
+            var Id = $(e.target).attr("id");
+            if (Class == 'panel slideout-panel slideout-panel-left' || Class == 'folder-item col-xs-3 col-sm-2' || Class == 'search-box' || Id == 'inputText' || Id == 'logo') {
+                slideout.close();
+            }
+        });
+    </script>
+
+</body>
+<script type="text/javascript">
+    document.write('<script src="js/main.js?v=' + now + '"><\/script\>');
+</script>
+
+</html>
