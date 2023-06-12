@@ -108,7 +108,7 @@ $(function() {
                 icon: 'img/douyu.png',
             }, {
                 name: '霹雳词库',
-                link: 'https://key.zhikulego.cn/',
+                link: 'https://pilipala.xbclzk.xyz',
                 box_shadow: '#FFFFCC',
                 icon: 'img/hupu.png',
             }, {
