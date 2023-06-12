@@ -107,7 +107,7 @@ $(function() {
                 box_shadow: '#000000',
                 icon: 'img/douyu.png',
             }, {
-                name: '打字练习',
+                name: '霹雳词库',
                 link: 'https://key.zhikulego.cn/',
                 box_shadow: '#FFFFCC',
                 icon: 'img/hupu.png',
