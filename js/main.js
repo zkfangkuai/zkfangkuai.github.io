@@ -92,11 +92,6 @@ $(function() {
                 box_shadow: '#FFFFFF',
                 icon: 'img/headline.png',
             }, {
-                name: '音乐下载',
-                link: 'http://tools.liumingye.cn/music/?page=searchPage',
-                box_shadow: '#0078D8',
-                icon: 'img/zhihulogo.png',
-            }, {
                 name: '数学游戏',
                 link: 'https://www.mathplayground.com/',
                 box_shadow: '#CC33FF',
@@ -111,6 +106,11 @@ $(function() {
                 link: 'https://pilipala.xbclzk.xyz',
                 box_shadow: '#FFFFCC',
                 icon: 'img/hupu.png',
+            }, {
+                name: '新必应AI',
+                link: 'https://mochugg-ceshi.hf.space',
+                box_shadow: '#0078D8',
+                icon: 'img/bingai.png',
             }, {
                 name: 'ChatGPT',
                 link: 'https://gpt.zhikulego.cn',
