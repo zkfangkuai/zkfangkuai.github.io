@@ -78,7 +78,7 @@ $(function() {
                 icon: 'img/true.png',
             }, {
                 name: '考级题库',
-                link: 'https://oj.xbclzk.xyz:8443',
+                link: 'https://tiku.fago.top',
                 box_shadow: '#00A0E9',
                 icon: 'img/tiku.png',
             }, {
