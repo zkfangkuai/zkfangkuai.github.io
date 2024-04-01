@@ -63,12 +63,12 @@ $(function() {
                 icon: 'img/log.png',
             }, {
                 name: '智库编程',
-                link: 'http://xbclzk.xyz/',
+                link: 'http://sc.fago.top/',
                 box_shadow: '#11B063',
                 icon: 'img/coolapk.png',
             }, {
                 name: '智库信奥',
-                link: 'https://oj.xbclzk.xyz',
+                link: 'https://oj.fago.top',
                 box_shadow: '#FFFF00',
                 icon: 'img/ding.png',
             }, {
@@ -103,7 +103,7 @@ $(function() {
                 icon: 'img/douyu.png',
             }, {
                 name: '霹雳词库',
-                link: 'https://pilipala.xbclzk.xyz',
+                link: 'https://pilipala.fago.top',
                 box_shadow: '#FFFFCC',
                 icon: 'img/hupu.png',
             }, {
